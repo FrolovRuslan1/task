@@ -1,11 +1,11 @@
 * {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 
 .tableLeft {
     margin: 0 auto;
     height: 600px;
-    width: 380px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -13,11 +13,13 @@
 }
 
 .tableLeft__danger {
+    color: #ff2424;
     width: inherit;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .tableLeft__danger__textLeft {
@@ -32,7 +34,8 @@
 }
 
 .tableLeft__danger__right__icon {
-
+    height: 50px;
+    width: 50px;
 }
 
 .tableLeft__danger__righ__marks {
@@ -56,19 +59,78 @@
 
 .tableLeft__topButtons__reports, .tableLeft__topButtons__risks {
     padding: 5px 50px;
-    background-color: #fafafa;
+    /*background-color: #7e92ad;*/
     border-radius: 5px;
     cursor: pointer;
 }
 
-.tableLeft__topButtons__reports:checked, .tableLeft__topButtons__risks:checked {
-    border: 1px solid #7e92ad;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tableLeft__risks, .tableLeft__reports {
+    width: inherit;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.tableLeft__topButtons__risks {
-
+.tableLeft__risks__upText, .tableLeft__reports__upText {
+    font-size: 15px;
+    margin-top: 20px;
 }
 
-.tableLeft__topButtons__reports {
-
+.tableLeft__risks__line, .tableLeft__reports__line {
+    height: 3px;
+    width: 300px;
+    background-color: #4a9f98;
 }
+
+.tableLeft__risks__content, .tableLeft__reports__content {
+    width: 350px;
+}
+
+
+.tableLeft__risks__content_1, .tableLeft__risks__content_2, .tableLeft__risks__content_3, .tableLeft__reports__content_1, .tableLeft__reports__content_2 {
+    height: 60px;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 2px;
+}
+
+.tableLeft__risks__content_1__icon, .tableLeft__risks__content_2__icon, .tableLeft__risks__content_3__icon, .tableLeft__reports__content_1__icon, .tableLeft__reports__content_2__icon {
+    height: 50px;
+    width: 50px;
+}
+
+.tableLeft__risks__content_1__text, .tableLeft__risks__content_2__text, .tableLeft__risks__content_3__text, .tableLeft__reports__content_1__text, .tableLeft__reports__content_2__text {
+    font-size: 13px;
+    width:240px;
+}
+
+
+
+
+
+
+
+
